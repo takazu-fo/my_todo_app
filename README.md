@@ -1,24 +1,36 @@
-# README
+# TODOアプリ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+このTODOアプリは、タスクの管理を行うためのシンプルなWebアプリケーションです。
+タスクの追加、編集、削除、完了状況の変更が可能です。
 
-Things you may want to cover:
+## 使用技術
 
-* Ruby version
+このアプリケーションは以下の技術・ライブラリを使用して開発されています。
 
-* System dependencies
+- Ruby on Rails
+- Ruby
+- PostgreSQL (データベース)
+- Bootstrap (CSSフレームワーク)
+- JavaScript
 
-* Configuration
+## セットアップ方法
 
-* Database creation
+1. このリポジトリをクローンする
 
-* Database initialization
+  - `git@github.com:takazu-fo/my_todo_app.git`
 
-* How to run the test suite
 
-* Services (job queues, cache servers, search engines, etc.)
+2. 必要なGemをインストールする
+- 'bundle install'
 
-* Deployment instructions
 
-* ...
+
+3. データベースをセットアップする
+- 'rails db:create db:migrate'
+
+
+4. アプリケーションをローカルサーバで実行する
+- 'rails s'
+
+5. Webブラウザで `http://localhost:3000` にアクセスして、アプリケーションを使用する
+
