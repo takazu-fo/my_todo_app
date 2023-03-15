@@ -1,6 +1,6 @@
 # TODOアプリ
 
-このTODOアプリは、タスクの管理を行うためのシンプルなWebアプリケーションです。
+このTODOアプリは、タスクの管理を行うためのシンプルなWebアプリケーションです。  
 タスクの追加、編集、削除、完了状況の変更が可能です。
 
 ## 使用技術
@@ -15,22 +15,24 @@
 
 ## セットアップ方法
 
-1. このリポジトリをクローンする
+1. このリポジトリをクローンする  
 
-  - `git@github.com:takazu-fo/my_todo_app.git`
-
-
-2. 必要なGemをインストールする
-- 'bundle install'
+    `git@github.com:takazu-fo/my_todo_app.git`
 
 
+2. 必要なGemをインストールする  
+    `bundle install`
 
-3. データベースをセットアップする
-- 'rails db:create db:migrate'
+
+3. データベースをセットアップする  
+    `rails db:create db:migrate`
 
 
-4. アプリケーションをローカルサーバで実行する
-- 'rails s'
+4. アプリケーションをローカルサーバで実行する  
+    `rails s`
 
-5. Webブラウザで `http://localhost:3000` にアクセスして、アプリケーションを使用する
+5. Webブラウザで `http://localhost:3000` にアクセスして、アプリケーションを使用する  
+
+
+
 
